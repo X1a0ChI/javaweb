@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>注册表格</title>
+</head>
+<body>
+<form action="RequestDemo.jsp" method="post"><%--表格,提交到RequestDemo.jsp--%>
+<table>
+	<tr>
+		<td>用户名</td>
+		<td><input type="text" name="username"/></td>
+	</tr>
+	<tr>
+		<td>密码</td>
+		<td><input type="password" name="upassword"/></td>
+	</tr>
+	<tr>
+		<td>确定密码</td>
+		<td><input type="password" name="repassword"/></td>
+	</tr>
+	<tr>
+		<td>姓名</td>
+		<td><input type="text" name="name"/></td>
+	</tr>
+	<tr>
+		<td>年龄</td>
+		<td><input type="text" name="age"/></td>
+	</tr>
+	<tr>
+		<td>性别</td>
+		<td><input type="text" name="sex"/></td>
+	</tr>
+	<tr>
+		<td><input type="submit" value="注册"/>
+		<td><input type="reset" value="重置"/>
+	</td>
+</table>
+</form>
+</body>
+</html>

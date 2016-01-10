@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 配置Servlet的名字 -->
+<servlet>
+<!-- 指定servlet的名字,相当与指定@WebServlet 的name属性 -->
+<servlet-name>firtstServlet</servlet-name>
+<!-- 指定servlet的实现类 -->
+<servlet-class>com.x1a0ch1.lession1.FirstServlet</servlet-class>
+<servlet-mapping>
+<!-- 指定Servlet 的名字 -->
+<servlet-name>firstServlet</servlet-name>
+<url-pattern>/aa/</url-pattern>
+</servlet-mapping>
+</servlet>
